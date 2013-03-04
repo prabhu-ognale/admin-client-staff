@@ -1,0 +1,20 @@
+RewriteEngine On
+
+
+#Options -Indexes
+
+RewriteRule ^user/(.*)/(.*)$   		index.php?page=user&action=$1&fn=$2
+RewriteRule ^member/(.*)$   		index.php?page=member&action=$1
+RewriteRule ^(.*)/(.*)/(.*).php$   index.php?page=$1&action=$2&method=$3
+
+
+
+
+
+
+
+
+
+
+
+
